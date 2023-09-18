@@ -31,7 +31,7 @@ void	*trylock()
 	{
 		printf("Didn't get lock\n");
 	}
-	return (NULL);
+	// return (NULL);
 }
 
 int main(void)
